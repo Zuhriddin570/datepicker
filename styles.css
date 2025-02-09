@@ -1,0 +1,193 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    font-size: x-large;
+    
+}
+.calendar{
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    width: 350px;
+    height: 250px;
+    border: none;
+    border-left:solid 1px black;
+}
+.datepicker{
+    border: none;
+    transform: translate(30%, 40%);
+    
+}
+div{
+    border: solid 1px black;
+    
+}
+.weekdays{
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    width: 350px;
+    height: 50px;
+    border: none
+    
+}
+.month{
+    width: 350px;
+    height: 100px;
+    
+}
+.month-name{
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+    width: 350px;
+    height: 50px;
+    border: none;
+}
+.date{
+    width: 350px;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.weekdays div{
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: large;
+    
+}
+.calendar div{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top:none ;
+    border-left: none;
+    
+}
+.today{
+    background-color: black;
+    color: white;
+}
+.calendar div:hover{
+    background-color: black;
+    color: white;
+}
+.calendar div:active{
+    background-color: black;
+    color: white;
+}
+.calendar div:visited{
+    background-color: black;
+    color: white;
+}
+.calendar div:link{
+    background-color: black;
+    color: white;
+}
+
+@media screen and (max-width: 600px){
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: 'Poppins', sans-serif;
+        text-align: center;
+        font-size: large;
+        
+    }
+.calendar{
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    width: 210px;
+    height: 150px;
+    border: none;
+    border-left:solid 1px black;
+}
+.datepicker{
+    border: none;
+    transform: translate(17%, 20%);
+    
+}
+div{
+    border: solid 1px black;
+    
+}
+.weekdays{
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    width: 210px;
+    height: 30px;
+    border: none
+    
+}
+.month{
+    width: 210px;
+    height: 60px;
+    
+}
+.month-name{
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+    width: 210px;
+    height: 30px;
+    border: none;
+}
+.date{
+    width: 210px;
+    height: 30px;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.weekdays div{
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: large;
+    
+}
+.calendar div{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top:none ;
+    border-left: none;
+    
+}
+.today{
+    background-color: black;
+    color: white;
+}
+.calendar div:hover{
+    background-color: black;
+    color: white;
+}
+.calendar div:active{
+    background-color: black;
+    color: white;
+}
+.calendar div:visited{
+    background-color: black;
+    color: white;
+}
+.calendar div:link{
+    background-color: black;
+    color: white;
+}
+}
